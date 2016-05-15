@@ -1,0 +1,16 @@
+C:\Users\varda sinai\Desktop\JumpUp\JumpUp\obj\Debug\JumpUp.csprojResolveAssemblyReference.cache
+C:\Users\varda sinai\Desktop\JumpUp\JumpUp\bin\JumpUp.dll
+C:\Users\varda sinai\Desktop\JumpUp\JumpUp\bin\JumpUp.pdb
+C:\Users\varda sinai\Desktop\JumpUp\JumpUp\obj\Debug\JumpUp.dll
+C:\Users\varda sinai\Desktop\JumpUp\JumpUp\obj\Debug\JumpUp.pdb
+E:\שנה ד סמסטר ב\הנדסת תוכנה\11.5\JumpUp\JumpUp\JumpUp\bin\JumpUp.dll.config
+E:\שנה ד סמסטר ב\הנדסת תוכנה\11.5\JumpUp\JumpUp\JumpUp\bin\JumpUp.dll
+E:\שנה ד סמסטר ב\הנדסת תוכנה\11.5\JumpUp\JumpUp\JumpUp\bin\JumpUp.pdb
+E:\שנה ד סמסטר ב\הנדסת תוכנה\11.5\JumpUp\JumpUp\JumpUp\obj\Debug\JumpUp.csprojResolveAssemblyReference.cache
+E:\שנה ד סמסטר ב\הנדסת תוכנה\11.5\JumpUp\JumpUp\JumpUp\obj\Debug\JumpUp.dll
+E:\שנה ד סמסטר ב\הנדסת תוכנה\11.5\JumpUp\JumpUp\JumpUp\obj\Debug\JumpUp.pdb
+C:\Users\varda sinai\Desktop\רחלי לימודים\JumpUp\JumpUp\bin\JumpUp.dll
+C:\Users\varda sinai\Desktop\רחלי לימודים\JumpUp\JumpUp\bin\JumpUp.pdb
+C:\Users\varda sinai\Desktop\רחלי לימודים\JumpUp\JumpUp\obj\Debug\JumpUp.csprojResolveAssemblyReference.cache
+C:\Users\varda sinai\Desktop\רחלי לימודים\JumpUp\JumpUp\obj\Debug\JumpUp.dll
+C:\Users\varda sinai\Desktop\רחלי לימודים\JumpUp\JumpUp\obj\Debug\JumpUp.pdb

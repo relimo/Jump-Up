@@ -1,0 +1,147 @@
+﻿.container{
+	width:1200px;
+	margin: auto;
+	margin-top:10px;
+	
+}
+
+.btnLogin{
+	float:right;
+	margin-right:0px;
+	margin-top:25px;
+	background-color:#E61E21;
+	width:100px;
+	height:50px;
+	border-radius:10px
+}
+.footer 
+{
+position: relative;
+margin-top: -150px; /* negative value of footer height */
+height: 150px;
+clear:both;
+padding-top:20px;
+color:#fff;
+}
+
+h1,h2,h3,h4 {
+  font-family: 'Kreon', serif;
+  vertical-align:middle;
+}
+
+header h1,header h2,header h3 a,header a,header a:hover {
+  color:#101010;
+  font-weight:800;
+  text-decoration:none;
+}
+
+.scroll-top {
+   position:fixed;
+   bottom:0;
+   right:6%;
+   z-index:100;
+   background:#E61E21;
+   font-size:24px;
+   border-top-left-radius:3px;
+   border-top-right-radius:3px;
+}
+.scroll-top a:link,.scroll-top a:visited {
+  color:#222;
+} 
+ 
+ 
+ /* START rachely mozes */
+ 
+ #btnLo{
+font-size:x-large;
+text-align:center;
+height:40px;
+}
+
+
+form {
+background-color:#f6bfbf;
+}
+.p_login {
+    font-family:Calibri;
+    font-size:large;
+    text-emphasis:circle;
+   color:#740909;
+}
+#btn_in_login {
+    text-decoration:dotted;
+    font-size:large;
+    background-color:#740909;
+    color:white;
+}
+#btn_in_login:hover {
+   
+    background-color:#7e30d7;
+   
+
+}
+.loginView {
+    margin-right: 50px;
+    margin-left: 100px;
+}
+ 
+ 
+/* END rachely mozes */
+
+/* START elisheva lauffer */
+ 
+ 
+ 
+ 
+/* END elisheva lauffer */
+
+.con{
+	margin-top:1400px;
+	margin-right:60px;
+}
+
+/* START chedvy vayskop */
+ 
+ /*.dmo{
+ width:900px;
+height:280px;
+margin-right:10px;
+margin-left:10px;
+float:left;
+ }*/
+ .dmo{
+	 margin-right:50px;
+	 margin-left:100px;
+ }
+
+ 
+ 
+/* END chedvy vayskop*/
+
+/* START yaely heller */
+ 
+ 
+ 
+ 
+/* END yaely heller */
+
+/* START chavy lopiansky */
+.gall-pic{
+width:300px;
+height:200px;
+margin-right:10px;
+margin-top:10px;
+
+
+} 
+ 
+ 
+ 
+/* END chavy lopiansky */
+
+/* START efrat lorentz */
+ 
+ 
+ 
+ 
+/* END efrat lorentz */

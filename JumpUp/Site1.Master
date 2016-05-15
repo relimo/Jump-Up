@@ -1,0 +1,104 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="JumpUp.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<%--<head runat="server">--%>
+    <head >
+<title>JumpApp</title>
+
+   
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width"/>
+<link rel="stylesheet" href="stylesheets/foundation.min.css"/>
+<link rel="stylesheet" href="stylesheets/main.css"/>
+<link rel="stylesheet" href="stylesheets/app.css"/>
+<script src="javascripts/modernizr.foundation.js"></script>
+<!-- Google fonts -->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Playfair+Display:400italic' rel='stylesheet' type='text/css' />
+<!-- IE Fix for HTML5 Tags -->
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+  <%--  <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>--%>
+</head>
+<body>
+    
+    <form id="form1" runat="server">
+    <div class="row page_wrap">
+      
+       <%--  <asp:Label ID="lblUserName" runat="server">gg</asp:Label>--%>
+       <%-- <asp:Button ID="Button2" runat="server" Text="Button" />--%>
+</div>
+<div class="row"> <a href="Home.aspx"><img src="images/logo.png" alt="" class="header_logo"/></a> 
+     <%-- <asp:Label ID="Label1" runat="server">gg</asp:Label>--%>
+    <%--<asp:Button ID="Button1" runat="server" Text="Button" />--%>
+  
+    <%--<asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click">LinkButton</asp:LinkButton>--%>
+   
+      <asp:Button class="button large right primary "  ID="Button1" runat="server" OnClick="Button1_Click" Text="LogIn"></asp:Button>
+
+</div>
+  
+<div class="row page_wrap" style="margin-top:-2px">
+  <!-- page wrap -->
+
+   
+  <div class="twelve columns">
+    <!-- page wrap -->
+    <div class="row">
+      <div class="twelve columns header_nav" style="margin-bottom:0; box-shadow: none">
+        <div class="twelve columns">
+          <ul id="menu-header" class="nav-bar horizontal">
+            <li class="has-flyout"><a href="Home.aspx">Home</a></li>
+            <li class="has-flyout"> <a href="#">Our Lessons</a><a href="#" class="flyout-toggle"></a>
+              <ul class="flyout">
+                <li class="has-flyout"><a href="Explain.aspx">Zumba</a></li>
+                   <li class="has-flyout"><a href="Explain.aspx">Pilates</a></li>
+                 <li class="has-flyout"><a href="Explain.aspx">Feldenkrais</a></li>
+                 <li class="has-flyout"><a href="Explain.aspx">Yoga</a></li>
+                 <li class="has-flyout"><a href="Explain.aspx">KickBox</a></li>
+                <li class="has-flyout"><a href="Explain.aspx">Spinning</a></li>
+                <li class="has-flyout"><a href="Explain.aspx">Aerobic</a></li>
+               
+              </ul>
+            </li>
+            <li><a href="Gallery.aspx"> Gallery</a></li>
+            <li><a href="CallUs.aspx"> Contact Us</a></li>
+            <li><a href="About.aspx">About Us</a></li>
+          </ul>
+          <script>$('ul#menu-header').nav - bar();</script>
+        </div>
+      </div>
+    </div>
+    <!-- END Header -->
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+        
+        </asp:ContentPlaceHolder>
+   
+    <div class="row">
+      <div class="twelve columns">
+        <ul id="menu3" class="footer_menu horizontal" >
+         <%-- <li><h3><a href="CallUs.aspx">Call Us!!</h3></a></li>--%>
+
+          
+  
+            <h6 ><a href="Home.aspx">  Home  </a>     |   Designed by Jump App Team    |     &copy; 2016  | <a href="CallUs.aspx"> contact us  </a>  </h6>
+ 
+        </ul>
+      </div>
+    </div>
+    <script>$('ul#menu3').nav - bar();</script>
+  </div>
+</div>
+<!-- end page wrap) -->
+<!-- Included JS Files (Compressed) -->
+<script src="javascripts/foundation.min.js"></script>
+<!-- Initialize JS Plugins -->
+<script src="javascripts/app.js"></script>
+
+    </form>
+
+</body>
+
+</html>

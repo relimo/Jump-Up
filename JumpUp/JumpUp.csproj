@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{37793DB1-C3FE-40C3-8BBF-EA663C9649F7}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>JumpUp</RootNamespace>
+    <AssemblyName>JumpUp</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Gallery.aspx" />
+    <Content Include="Home.aspx" />
+    <Content Include="images\bg.png" />
+    <Content Include="images\cosher.jpg" />
+    <Content Include="images\demo1.jpg" />
+    <Content Include="images\demo2.jpg" />
+    <Content Include="images\demo3.jpg" />
+    <Content Include="images\foundation\orbit\bullets.jpg" />
+    <Content Include="images\foundation\orbit\left-arrow-small.png" />
+    <Content Include="images\foundation\orbit\left-arrow.png" />
+    <Content Include="images\foundation\orbit\loading.gif" />
+    <Content Include="images\foundation\orbit\mask-black.png" />
+    <Content Include="images\foundation\orbit\pause-black.png" />
+    <Content Include="images\foundation\orbit\right-arrow-small.png" />
+    <Content Include="images\foundation\orbit\right-arrow.png" />
+    <Content Include="images\foundation\orbit\rotator-black.png" />
+    <Content Include="images\foundation\orbit\timer-black.png" />
+    <Content Include="images\heading_dots_grey.png" />
+    <Content Include="images\im.jpg" />
+    <Content Include="images\im2.jpg" />
+    <Content Include="images\images %281%29.jpg" />
+    <Content Include="images\images %282%29.jpg" />
+    <Content Include="images\images %284%29.jpg" />
+    <Content Include="images\images %285%29.jpg" />
+    <Content Include="images\images %288%29.jpg" />
+    <Content Include="images\images %289%29.jpg" />
+    <Content Include="images\images.jpg" />
+    <Content Include="images\img1.jpeg" />
+    <Content Include="images\imm.JPG" />
+    <Content Include="images\kid.jpg" />
+    <Content Include="images\kidi.jpg" />
+    <Content Include="images\KIDS.jpg" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\logo_small.png" />
+    <Content Include="images\my.png" />
+    <Content Include="images\p.jpg" />
+    <Content Include="images\piin.jpg" />
+    <Content Include="images\pilates.jpg" />
+    <Content Include="images\pin.jpg" />
+    <Content Include="images\pin10.jpg" />
+    <Content Include="images\pin11.jpg" />
+    <Content Include="images\pin12.jpg" />
+    <Content Include="images\pin20.jpg" />
+    <Content Include="images\pin3.jpg" />
+    <Content Include="images\pin5.jpg" />
+    <Content Include="images\pin6.jpg" />
+    <Content Include="images\pin7.jpg" />
+    <Content Include="images\pin9.jpg" />
+    <Content Include="images\pinnn.jpg" />
+    <Content Include="images\ppinn.jpg" />
+    <Content Include="images\price.bg.png" />
+    <Content Include="images\price.bg.signup.png" />
+    <Content Include="images\prod_large.jpg" />
+    <Content Include="images\prod_thumb.png" />
+    <Content Include="images\ssport-Copy.jpg" />
+    <Content Include="images\yoga.jpg" />
+    <Content Include="images\zumba.jpg" />
+    <Content Include="individual.aspx" />
+    <Content Include="javascripts\app.js" />
+    <Content Include="javascripts\foundation.min.js" />
+    <Content Include="javascripts\jquery.foundation.accordion.js" />
+    <Content Include="javascripts\jquery.foundation.alerts.js" />
+    <Content Include="javascripts\jquery.foundation.buttons.js" />
+    <Content Include="javascripts\jquery.foundation.forms.js" />
+    <Content Include="javascripts\jquery.foundation.mediaQueryToggle.js" />
+    <Content Include="javascripts\jquery.foundation.navigation.js" />
+    <Content Include="javascripts\jquery.foundation.orbit.js" />
+    <Content Include="javascripts\jquery.foundation.reveal.js" />
+    <Content Include="javascripts\jquery.foundation.tabs.js" />
+    <Content Include="javascripts\jquery.foundation.tooltips.js" />
+    <Content Include="javascripts\jquery.foundation.topbar.js" />
+    <Content Include="javascripts\jquery.js" />
+    <Content Include="javascripts\jquery.placeholder.js" />
+    <Content Include="javascripts\masonry.js" />
+    <Content Include="javascripts\modernizr.foundation.js" />
+    <Content Include="Login.aspx" />
+    <Content Include="StyleSheet.css" />
+    <Content Include="stylesheets\app.css" />
+    <Content Include="stylesheets\foundation.css" />
+    <Content Include="stylesheets\foundation.min.css" />
+    <Content Include="stylesheets\main.css" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="WebForm1.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="dal.cs" />
+    <Compile Include="Gallery.aspx.cs">
+      <DependentUpon>Gallery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Gallery.aspx.designer.cs">
+      <DependentUpon>Gallery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="individual.aspx.cs">
+      <DependentUpon>individual.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="individual.aspx.designer.cs">
+      <DependentUpon>individual.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Lesson.cs" />
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Site1.Master" />
+    <Content Include="images\foundation\orbit\Thumbs.db" />
+    <Content Include="images\Thumbs.db" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:44780/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
